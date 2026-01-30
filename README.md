@@ -1,4 +1,4 @@
-### UR-ACEIoT Student Documentation - Niyomugenga Grace
+### UR-ACEIoT Student Documentation for Niyomugenga Grace
 
 This repository contains the documentation for **Niyomugenga Grace's** Modeling & Fabrication course at UR-ACEIoT, featuring the **CO3 Nameplate Project** - a comprehensive 9-day journey from concept to finished walnut nameplate.
 
