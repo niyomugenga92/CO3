@@ -45,6 +45,24 @@ Create comprehensive technical drawings and quality control documentation for th
 - Critical for CNC tool selection
 - Ensures machinability
 
+### Technical Drawing Examples
+
+<div class="image-grid">
+  <figure>
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/day_3/Fab_Lab_Again_PCB.png">
+      <img src="../images/day_3/Fab_Lab_Again_PCB.png" alt="Technical Drawing - Top View" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption>Technical Drawing - Top View with Dimensions</figcaption>
+  </figure>
+  
+  <figure>
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/day_3/Fab_Lab_Again_PCB_2.png">
+      <img src="../images/day_3/Fab_Lab_Again_PCB_2.png" alt="Technical Drawing - Section View" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption>Section View Showing Component Depth</figcaption>
+  </figure>
+</div>
+
 ### Dimensioning Standards
 
 Applied proper dimensioning practices:
@@ -60,6 +78,15 @@ Applied proper dimensioning practices:
 ## Quality Control Planning
 
 ### Inspection Points for CO3 Nameplate
+
+<div class="image-grid">
+  <figure>
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/day_3/Fab_Lab_Again_PCB_22.jpg">
+      <img src="../images/day_3/Fab_Lab_Again_PCB_22.jpg" alt="Quality Control Inspection" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption>Quality Control Inspection Process</figcaption>
+  </figure>
+</div>
 
 | Feature | Target Dimension | Tolerance | Measurement Method |
 |---------|------------------|-----------|-------------------|
@@ -118,6 +145,22 @@ For future enhancement, the CO3 nameplate could incorporate LED backlighting:
   - Current-limiting resistors
   - Power connector (USB or battery)
   - Simple on/off switch
+
+<div class="image-grid">
+  <figure>
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/day_3/Fab_Lab_Again_PCB_224.jpg">
+      <img src="../images/day_3/Fab_Lab_Again_PCB_224.jpg" alt="PCB Design Example" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption>Example PCB Layout for LED Control</figcaption>
+  </figure>
+  
+  <figure>
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/day_3/Fab_Lab_Again_PCB_2246.jpg">
+      <img src="../images/day_3/Fab_Lab_Again_PCB_2246.jpg" alt="PCB Design Detail" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption>Detailed PCB Component Placement</figcaption>
+  </figure>
+</div>
 
 **PCB Specifications:**
 - Size: 50mm x 30mm
@@ -222,6 +265,33 @@ Tomorrow I will:
 - Evaluate material properties for aesthetics and machinability
 - Make final material selection for the CO3 nameplate
 - Understand how material choice affects fabrication parameters
+
+---
+
+## Visual Gallery: Technical Documentation Examples
+
+<div class="image-grid" style="margin-top: 2rem;">
+  <figure>
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/day_3/Fab_Lab_Again_PCB.png">
+      <img src="../images/day_3/Fab_Lab_Again_PCB.png" alt="Complete Technical Drawing Package" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption>Complete Technical Drawing Package</figcaption>
+  </figure>
+  
+  <figure>
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/day_3/Fab_Lab_Again_PCB_2.png">
+      <img src="../images/day_3/Fab_Lab_Again_PCB_2.png" alt="Detailed Section Views" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption>Detailed Section Views</figcaption>
+  </figure>
+  
+  <figure>
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/day_3/Fab_Lab_Again_PCB_22.jpg">
+      <img src="../images/day_3/Fab_Lab_Again_PCB_22.jpg" alt="Inspection Documentation" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption>Quality Inspection Documentation</figcaption>
+  </figure>
+</div>
 
 <!-- Images to be added:
 - Technical drawing: Top view with all dimensions
