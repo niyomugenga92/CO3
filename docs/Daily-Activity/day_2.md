@@ -245,6 +245,42 @@ Today I successfully created a production-ready 3D CAD model of the CO3 nameplat
 **Challenge 3:** Previewing carving depth visually
 **Solution:** Used FreeCAD's section view to verify 4mm depth looks correct
 
+---
+
+## CAD Design Gallery
+
+<div class="image-grid" style="margin-top: 2rem;">
+  <figure>
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/day_2/Day2_Activity1.png">
+      <img src="../images/day_2/Day2_Activity1.png" alt="FreeCAD Modeling Workflow" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption>FreeCAD Modeling Workflow</figcaption>
+  </figure>
+  
+  <figure>
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/day_2/DESIGN_2.jpg">
+      <img src="../images/day_2/DESIGN_2.jpg" alt="Initial Design Concept" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption>Initial Design Concept</figcaption>
+  </figure>
+  
+  <figure>
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/day_2/dESIGN2_1.jpg">
+      <img src="../images/day_2/dESIGN2_1.jpg" alt="Design Iteration 1" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption>Design Iteration 1</figcaption>
+  </figure>
+  
+  <figure>
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/day_2/DESIGN2_2.jpg">
+      <img src="../images/day_2/DESIGN2_2.jpg" alt="Design Iteration 2" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption>Design Iteration 2</figcaption>
+  </figure>
+</div>
+
+---
+
 ### Next Steps for Day 3
 
 While Day 3 typically focuses on PCB design, for the CO3 project I will:
@@ -252,16 +288,6 @@ While Day 3 typically focuses on PCB design, for the CO3 project I will:
 - Create detailed technical drawings with dimensions
 - Generate quality control documentation
 - Prepare measurement protocols for validating the final fabricated piece
-
-<!-- Images to be added:
-- FreeCAD screenshot: Oval base after extrusion
-- FreeCAD screenshot: Letter sketches on top face
-- FreeCAD screenshot: Completed model with carved letters
-- FreeCAD screenshot: Section view showing 4mm depth
-- Technical drawing: Top view with all dimensions
-- Technical drawing: Side profile view
-- File export process screenshots
--->
 
 This session reinforced that **digital modeling is not just about creating shapes—it's about creating manufacturable designs**. Every decision, from geometry to file format, impacts the final fabricated object.
 
@@ -271,12 +297,5 @@ This session reinforced that **digital modeling is not just about creating shape
 3. **File format selection impacts fabrication success**
 4. **DFM principles save time, materials, and money**
 5. **Parametric modeling enables rapid iteration**
-
-<!-- Images to be added:
-- CAD workflow screenshots
-- L-bracket modeling process
-- File format exports
-- Tolerance examples
--->
 
 

@@ -161,9 +161,16 @@ Through Day 1, I have learned to:
 !!! quote "Key Insight"
     \"The best designs emerge when fabrication logic informs the design process from day one, not as an afterthought.\"
 
-<!-- Images to be added:
-- Initial concept sketches
-- Paper mockup at scale
-- Fabrication process comparison chart
--->
+---
+
+## Visual Reference Gallery
+
+<div class="image-grid" style="margin-top: 2rem;">
+  <figure>
+    <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../images/day_1/fabslogo.svg">
+      <img src="../images/day_1/fabslogo.svg" alt="FabLab Digital Fabrication" style="width: 100%; height: auto; border-radius: 8px;">
+    </a>
+    <figcaption>FabLab - Digital Fabrication Foundation</figcaption>
+  </figure>
+</div>
 
