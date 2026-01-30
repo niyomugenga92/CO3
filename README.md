@@ -65,8 +65,7 @@ Check the **Actions** tab in your GitHub repository to see the deployment progre
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/YourUsername/YourRepoName.git
-   cd YourRepoName
+   git clone https://github.com/niyomugenga92/Niyomugenga-URACEIoT.git
    ```
 
 2. **Create virtual environment & install dependencies**
