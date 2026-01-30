@@ -1,12 +1,12 @@
 # Replace the text below to customize your site
-site_name: Niyomugenga Grace
-site_description: Niyomugenga Grace - Fabricademy site
+site_name: UR-ACEIoT Documentation
+site_description: Niyomugenga Grace - Modeling & Fabrication Documentation
 site_author: Niyomugenga Grace
 copyright: Copyright 2026 Niyomugenga Grace - Creative Commons Attribution Non-commercial
 
-site_url: https://github.com/NiyomugengaGrace
-repo_url: https://github.com/NiyomugengaGrace/Fabricademy
-repo_name: UR-ACEIoT Documentation site
+site_url: https://niyomugenga92.github.io/Niyomugenga-URACEIoT/
+repo_url: https://github.com/niyomugenga92/Niyomugenga-URACEIoT
+repo_name: niyomugenga92/Niyomugenga-URACEIoT
 
 extra:
   social:
@@ -34,7 +34,7 @@ theme:
   icon:
     # Read about icons at https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
     logo: material/library
-    repo: material/gitlab
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs
     - navigation.footer
