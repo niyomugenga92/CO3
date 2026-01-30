@@ -20,6 +20,13 @@ Create an accurate 1:1 scale template of the CO3 nameplate oval outline to:
 !!! info "Prototype Before Production"
     Cardboard laser cutting takes 2 minutes and costs $0.50. CNC milling walnut takes 45 minutes and uses $20 material. Testing first prevents expensive mistakes!
 
+<figure markdown>
+  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/day_4/2.jfif" data-desc-position="bottom">
+    <img alt="CO3 Nameplate Design Reference" src="../images/day_4/2.jfif" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  </a>
+  <figcaption>The CO3 nameplate design - our target for laser-cut template validation</figcaption>
+</figure>
+
 ---
 
 ## Laser Cutting Principles Applied to CO3
@@ -69,6 +76,13 @@ Create an accurate 1:1 scale template of the CO3 nameplate oval outline to:
 | Cardboard | 3 mm | Validation template | Fast, cheap, perfect for testing |
 
 *Future reference: Final CO3 will be CNC milled from walnut on Day 7*
+
+<figure markdown>
+  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/day_4/Laser-cutting.jpg" data-desc-position="bottom">
+    <img alt="Laser Cutting Machine in Operation" src="../images/day_4/Laser-cutting.jpg" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  </a>
+  <figcaption>CO₂ Laser cutter used for precise cutting of the cardboard template</figcaption>
+</figure>
 
 ---
 
@@ -284,6 +298,26 @@ Tomorrow I will:
 - Prepare mentally for final walnut CNC on Day 7
 
 **Status:** CO3 project is on track! Design validated. Ready for prototype.
+
+---
+
+## Visual Reference Gallery
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+  <figure markdown>
+    <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/day_4/2.jfif" data-desc-position="bottom">
+      <img alt="CO3 Nameplate Design" src="../images/day_4/2.jfif" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
+    <figcaption>CO3 nameplate design reference</figcaption>
+  </figure>
+  
+  <figure markdown>
+    <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/day_4/Laser-cutting.jpg" data-desc-position="bottom">
+      <img alt="Laser Cutting Process" src="../images/day_4/Laser-cutting.jpg" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
+    <figcaption>Laser cutting workflow and setup</figcaption>
+  </figure>
+</div>
 
 <!-- Images to be added:
 - Lightburn screenshot showing CO3 DXF import

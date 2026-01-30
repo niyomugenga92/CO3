@@ -1,4 +1,6 @@
-# Day 6 – 3D Printing: CO3 Nameplate Prototype
+# 6. Activity of Day 6
+
+# Ultimaker 3D Printer Operation
 
 ## Course Overview
 Today I 3D print a full prototype of the CO3 nameplate in PLA plastic. This tests the design's 3D appearance, validates letter depth, and allows final refinements before CNC milling the expensive walnut piece.
@@ -44,7 +46,52 @@ Create a physical 3D prototype to:
 
 ---
 
-## File Preparation: CO3.stl → Cura Slicer
+## 1. Machine & Materials
+
+### Ultimaker FDM Printer
+The Ultimaker is a desktop FDM printer known for reliability and precision. Before printing, it is critical to select the right material for the job.
+
+<figure markdown>
+  <img alt="Ultimaker 3D Printer" src="../images/day_6/ultimaker.jpeg" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  </a>
+  <figcaption>Ultimaker 3D printer used for CO3 prototype fabrication</figcaption>
+</figure>
+
+### Material Selection Guide
+
+| Material | Properties | Best Application |
+|----------|------------|------------------|
+| **PLA** | Biodegradable, easy to print | General prototyping, visual models |
+| **ABS** | Strong, temperature-resistant | Functional parts, mechanical gears |
+| **PETG** | Impact-resistant, combines PLA ease with ABS strength | Snap-fits, protective cases |
+| **TPU** | Flexible and rubber-like | Phone cases, seals, gaskets |
+
+!!! note "Material Choice for CO3"
+    For the CO3 nameplate prototype, we selected **PLA** because:
+    
+    - Easy to print with minimal warping
+    - Sufficient detail for validating letter depth
+    - Biodegradable and environmentally friendly
+    - Low cost for testing purposes
+
+---
+
+## 2. The Printing Workflow
+
+## 2. The Printing Workflow
+
+### Phase A: Slicing (Ultimaker Cura)
+
+Before the printer can move, the digital 3D model (STL/OBJ) must be "sliced" into G-code instructions.
+
+#### Key Slicing Settings
+
+!!! info "Critical Parameters"
+    **Layer Height:** Determines resolution. Lower (e.g., 0.1mm) is smoother but slower.
+    
+    **Infill Density:** Controls internal strength. 20% is standard; 100% is solid.
+    
+    **Supports:** Essential for overhangs greater than 45°.
 
 ### 1. Import CO3 STL File
 From Day 2's FreeCAD export: `CO3_Nameplate.stl`
@@ -105,6 +152,34 @@ Filament Length: 16.2m
 ---
 
 ## 3D Printing Process: CO3 Prototype Fabrication
+
+### Phase B: Printer Setup
+
+Before starting the print, proper machine setup is essential for success.
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 20px 0;">
+  <div style="padding: 20px; background: var(--md-code-bg-color); border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4>1. Load Filament</h4>
+    <p>Feed the filament into the extruder path. Ensure the material matches the Cura profile!</p>
+  </div>
+  
+  <div style="padding: 20px; background: var(--md-code-bg-color); border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4>2. Level Build Plate</h4>
+    <p>Use the built-in leveling wizard or manual paper method for proper first layer adhesion.</p>
+  </div>
+  
+  <div style="padding: 20px; background: var(--md-code-bg-color); border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4>3. Clean Surface</h4>
+    <p>Wipe the build plate with isopropyl alcohol to remove oils and ensure proper adhesion.</p>
+  </div>
+</div>
+
+<figure markdown>
+  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/day_6/3.jpeg" data-desc-position="bottom">
+    <img alt="3D Printer Setup" src="../images/day_6/3.jpeg" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  </a>
+  <figcaption>Printer setup and filament loading process</figcaption>
+</figure>
 
 ### Pre-Print Checklist
 
@@ -186,6 +261,35 @@ Filament Length: 16.2m
 
 **Analysis:** Shrinkage of -0.2 to -0.4mm is typical for PLA cooling. All deviations are within ±0.5mm tolerance.
 
+---
+
+## 3. Operations & Troubleshooting
+
+### Monitoring the Print
+
+#### Watch the First Layer
+
+!!! warning "Critical Success Factor"
+    Always monitor the first few layers. Most failures (like detachment) happen here. If the nozzle is too high, the plastic won't stick; too low, and it will block flow.
+
+**First Layer Checklist:**
+- Filament should squish slightly into the bed
+- Lines should touch but not overlap excessively
+- No gaps between extrusion lines
+- Consistent flow across entire build plate
+
+### Common Issues & Fixes
+
+| Issue | Symptom | Solution |
+|-------|---------|----------|
+| **Warping** | Corners lifting off the plate | Clean the bed, use glue stick, or increase bed temperature |
+| **Stringing** | Fine plastic hairs between parts | Lower nozzle temperature or increase retraction settings |
+| **Under-extrusion** | Gaps or thin layers | Check for nozzle clogs or filament tangles |
+| **Layer Shifting** | Misaligned layers | Check belt tension and reduce print speed |
+| **Adhesion Failure** | Part detaches during print | Clean bed, adjust Z-offset, use adhesion helpers |
+
+---
+
 ### Letter Depth Assessment
 
 **4mm Depth Test:**
@@ -242,6 +346,57 @@ The prototype validates the CAD model perfectly. Ready to proceed to final CNC f
 
 ## Reflection & Next Steps
 
+### 4. Safety Guidelines
+
+Operating a 3D printer involves high heat and moving parts.
+
+!!! danger "Safety Precautions"
+    **Heat Hazard:** The nozzle reaches 200°C+ and the bed 60°C+. Do not touch these components during operation.
+    
+    **Ventilation:** Ensure the room is well-ventilated, especially when printing materials like ABS that release fumes.
+    
+    **Supervision:** Never leave the printer unattended for long periods.
+
+### Safety Checklist
+
+- Keep hands away from moving parts
+- Do not touch hot nozzle or heated bed
+- Ensure adequate ventilation
+- Keep flammable materials away
+- Use tools (not fingers) to remove prints
+- Turn off printer when not in use
+- Monitor first 15 minutes of every print
+
+---
+
+## 5. Project Showcase
+
+<figure markdown>
+  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/day_6/co3.jpeg" data-desc-position="bottom">
+    <img alt="3D Printed CO3 Nameplate Prototype" src="../images/day_6/co3.jpeg" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  </a>
+  <figcaption>Final 3D printed CO3 nameplate prototype - PLA material demonstrating successful depth validation</figcaption>
+</figure>
+
+### Prototype Results
+
+**Successful Validation:**
+- 4mm letter depth creates excellent visual contrast
+- Oval proportions confirmed at actual size
+- Letter legibility verified from viewing distance
+- Design ready for final walnut CNC fabrication
+- No design changes required
+
+**Print Quality Metrics:**
+- Surface finish: Good (minor layer lines acceptable for prototype)
+- Dimensional accuracy: ±0.3mm (within tolerance)
+- Print success rate: 100% (no failures or restarts)
+- Total material used: 48g PLA ($1.92)
+
+---
+
+## Reflection & Next Steps
+
 ### What I Learned Today
 
 **Technical Skills:**
@@ -275,6 +430,93 @@ With the design validated, I'm ready for the most important day: **CNC milling t
 - Post-machining inspection
 
 The prototype gives me confidence that the design is solid. Time to make the real thing!
+
+---
+
+## 4. Safety Guidelines
+
+Operating a 3D printer involves high heat and moving parts.
+
+!!! danger "Safety Precautions"
+    **Heat Hazard:** The nozzle reaches 200°C+ and the bed 60°C+. Do not touch these components during operation.
+    
+    **Ventilation:** Ensure the room is well-ventilated, especially when printing materials like ABS that release fumes.
+    
+    **Supervision:** Never leave the printer unattended for long periods.
+
+### Safety Checklist
+
+- Keep hands away from moving parts
+- Do not touch hot nozzle or heated bed
+- Ensure adequate ventilation
+- Keep flammable materials away
+- Use tools (not fingers) to remove prints
+- Turn off printer when not in use
+- Monitor first 15 minutes of every print
+
+---
+
+## 5. Project Showcase
+
+Below is the bracket I prepared using this workflow:
+
+<figure markdown>
+  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/ultimaker.jpeg" data-desc-position="bottom">
+    <img alt="Ultimaker 3D Printer with Printed Bracket" src="../images/ultimaker.jpeg" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  </a>
+  <figcaption>Ultimaker 3D printer with completed bracket - demonstrating professional FDM fabrication</figcaption>
+</figure>
+
+### CO3 Nameplate Prototype
+
+<figure markdown>
+  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/day_6/co3.jpeg" data-desc-position="bottom">
+    <img alt="3D Printed CO3 Nameplate Prototype" src="../images/day_6/co3.jpeg" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  </a>
+  <figcaption>Final 3D printed CO3 nameplate prototype - PLA material demonstrating successful depth validation</figcaption>
+</figure>
+
+### Prototype Results
+
+**Successful Validation:**
+- 4mm letter depth creates excellent visual contrast
+- Oval proportions confirmed at actual size
+- Letter legibility verified from viewing distance
+- Design ready for final walnut CNC fabrication
+- No design changes required
+
+**Print Quality Metrics:**
+- Surface finish: Good (minor layer lines acceptable for prototype)
+- Dimensional accuracy: ±0.3mm (within tolerance)
+- Print success rate: 100% (no failures or restarts)
+- Total material used: 48g PLA ($1.92)
+
+---
+
+## Visual Gallery
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+  <figure markdown>
+    <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/day_6/2.jpeg" data-desc-position="bottom">
+      <img alt="Ultimaker Printer" src="../images/day_6/2.jpeg" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
+    <figcaption>Ultimaker 3D printer setup</figcaption>
+  </figure>
+  
+  <figure markdown>
+    <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/day_6/3.jpeg" data-desc-position="bottom">
+      <img alt="Printing Process" src="../images/day_6/3.jpeg" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
+    <figcaption>3D printing in progress</figcaption>
+  </figure>
+  
+  <figure markdown>
+    <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images/day_6/co3.jpeg" data-desc-position="bottom">
+      <img alt="Final CO3 Prototype" src="../images/day_6/co3.jpeg" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
+    <figcaption>Completed CO3 nameplate prototype</figcaption>
+  </figure>
+</div>
 
 ---
 

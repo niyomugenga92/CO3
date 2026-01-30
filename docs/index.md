@@ -22,7 +22,7 @@ This is an example of how you can structure your documentation, including ways o
 ## About me
 
 ![](./images/grace.png){ width=200 align=right }
-I Niyomugenga Grace pursuing a Master of Science in IoT Embedded Computing Systems (ECS) at UR-ACEIoT, driven by a passion for digital fabrication, modeling, and the creative fusion of technology with problem-solving. This documentation site serves as a record of my learning journey in the Modeling & Fabrication course, where design and making converge to spark innovative solutions.
+I am Niyomugenga Grace pursuing a Master of Science in IoT Embedded Computing Systems (ECS) at UR-ACEIoT, driven by a passion for digital fabrication, modeling, and the creative fusion of technology with problem-solving. This documentation site serves as a record of my learning journey in the Modeling & Fabrication course, where design and making converge to spark innovative solutions.
 
 My work reflects my growth as an IoT engineer and embedded systems developer, with digital fabrication as a cornerstone for hardware prototyping and firmware integration. From PCB design to crafting physical enclosures, I am exploring how embedded systems evolve from abstract concepts into tangible products. Each step I document highlights the process of bridging software logic with hardware realities, shaping me into a firmware developer who thrives at the intersection of design, engineering, and fabrication.
 
@@ -34,7 +34,7 @@ My work reflects my growth as an IoT engineer and embedded systems developer, wi
 Digital fabrication links digital design and physical production through computer-controlled tools such as CNC machines, laser cutters, and 3D printers. It evolved from manual craft and industrial manufacturing to enable rapid prototyping, precision, iteration, and hybrid workflows, transforming fabrication into an accessible process for innovation, education, and localized production.
 
 ### Course Structure
-This 9-day intensive course covers the complete digital fabrication workflow, from foundational concepts to advanced multi-process integration:
+These 9-day intensive course covers the complete digital fabrication workflow, from foundational concepts to advanced multi-process integration:
 
 1. **Foundations** - Modeling principles and fabrication ecosystems
 2. **Digital Modeling** - CAD workflows and Design for Manufacturing (DFM)

@@ -203,15 +203,15 @@ For the CO3 nameplate, precision is critical because:
 
 After completing the CAD model, I verified all critical dimensions:
 
-- ✅ Oval width: 150.00mm ± 0.1mm
-- ✅ Oval height: 90.00mm ± 0.1mm
-- ✅ Base thickness: 10.00mm
-- ✅ Letter C height: 40.00mm
-- ✅ Letter O height: 38.00mm
-- ✅ Number 3 height: 40.00mm
-- ✅ Carving depth: 4.00mm
-- ✅ Internal corner radii: 2.00mm (all corners)
-- ✅ Letter spacing: 5.00mm between each character
+- Oval width: 150.00mm ± 0.1mm
+- Oval height: 90.00mm ± 0.1mm
+- Base thickness: 10.00mm
+- Letter C height: 40.00mm
+- Letter O height: 38.00mm
+- Number 3 height: 40.00mm
+- Carving depth: 4.00mm
+- Internal corner radii: 2.00mm (all corners)
+- Letter spacing: 5.00mm between each character
 
 ---
 

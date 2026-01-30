@@ -122,7 +122,7 @@ Edit `mkdocs.yml` to change:
 ### Add Images
 Place images in `docs/images/` and reference in markdown:
 ```markdown
-![Description](./images/your-image.jpg)
+![Description](./images/grace.PNG)
 ```
 
 ---
