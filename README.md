@@ -105,7 +105,7 @@ This repository documents **Niyomugenga Grace's** comprehensive digital fabricat
    source .venv/bin/activate
    ```
 
-3. **Install dependencies**
+3. **Install dependencies**readme
    ```bash
    pip install -r requirements.txt
    ```
