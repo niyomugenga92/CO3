@@ -1,12 +1,12 @@
 # Replace the text below to customize your site
-site_name: Niyomugenga-URACEIoT/
-site_description: Niyomugenga Grace - Modeling & Fabrication Documentation
+site_name: CO3
+site_description: CO3 project documentation
 site_author: Niyomugenga Grace
 copyright: Copyright 2026 Niyomugenga Grace - Creative Commons Attribution Non-commercial
 
-site_url: https://niyomugenga92.github.io/Niyomugenga-URACEIoT/
-repo_url: https://github.com/niyomugenga92/Niyomugenga-URACEIoT
-repo_name: Niyomugenga-URACEIoT
+site_url: https://niyomugenga92.github.io/CO3/
+repo_url: https://github.com/niyomugenga92/CO3
+repo_name: CO3
 
 extra:
   social:
