@@ -357,4 +357,4 @@ This project documentation is created for educational purposes as part of the **
 **Status:** COMPLETE AND DEPLOYED
 
 🎉 **The CO3 Nameplate Project is LIVE!**  
-Visit [https://niyomugenga92.github.io/Niyomugenga-URACEIoT/](https://niyomugenga92.github.io/Niyomugenga-URACEIoT/) to explore the full documentation.
+Visit [https://niyomugenga92.github.io/CO3/](https://niyomugenga92.github.io/CO3/) to explore the full documentation.
